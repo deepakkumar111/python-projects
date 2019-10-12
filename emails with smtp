@@ -2,7 +2,7 @@ import smtplib as s
 g=s.SMTP('smtp.gmail.com',587)
 print("start")
 g.starttls()
-a=input("enter the email from which you want to distribute message")
+a=input("enter the email from which you want to send message")
 p=input("enter the password ")
 b=input("enter the email whom you want to send message")
 c=input("enter the message ")
